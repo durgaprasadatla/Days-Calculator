@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(lightblue,lightgrey);
+    background-clip: content-box;
+    color: transparent;
+    /* background-color: pink; */
+}
+div{
+    padding: 5px;
+    font-size: 30px;
+    font-family: cursive;
+    background-image: linear-gradient(red,blue);
+    background-clip: text;
+    color: transparent;
+}
+.in{
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 5px;
+}
+.bu{
+    margin-left: 250px;
+    height: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 5px;
+
+}
+h1{
+    background-image: linear-gradient(blue,red);
+    background-clip: text;
+    color: transparent;
+}
+#btn{
+    align-self: center;
+    width: 80px;
+}
+#main{
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+}
